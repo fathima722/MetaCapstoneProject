@@ -4,7 +4,7 @@ const Header = () => {
         <>
             <meta name="og:image" content={logo}/>
             <meta name="og:title" content="Homepage, Little restaurant"/>
-            <header><img src={logo} style={{height: "50px"}} alt="Brand logo"/>Homepage</header>
+            <header><img src={logo} style={{height: "50px"}} alt="Brand logo" data-text-id="HomePage"/>Homepage</header>
         </>
     )
 }
